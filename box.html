@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>box</title>
+	<style type="text/css">
+		body{
+			margin: 0;
+			font-family:Arial, Helvetica, sans-serif;
+
+		}
+.topnav{
+	overflow: hidden;
+	background-color: #333;
+}
+.topnav a{
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover{
+	background-color: #ddd;
+	color: black;
+}
+.topnav a {
+	background-color: #04AA6D;
+	color: white;
+}
+
+	</style>
+
+
+</head>
+<body>
+<div class="topnav">
+<a href="#Home">Home</a>
+<a href="#About">About</a>
+<a href="#Contact">Contact</a>
+</div>
+
+<p>This is the navbar</p>
+<style type="text/css">
+	input[type=checkbox]{
+		accent-color: red;
+	}
+	input [type=radio]
+{
+	accent-color:red;
+}
+progress{
+	accent-color: hsl(39,100% 50%);
+}
+</style>
+<h1>the accent color property</h1>
+<h3>which vehicle you have</h3>
+<input type="checkbox" id="vehicle" name="vehicle" value="car">
+<label for ="vehicle">I have a car</label>
+<br>
+
+<h3>accent color for radio buttons</h3>
+<input type="radio" id="Html"  name="favourite-language" value="HTML">
+<label for="html">HTML</label>
+<br>
+<h3> accent color for progress</h3>
+<label for="file">Downloading progress</label>
+<progress id="file" value="75" max="100"> 75%
+</progress>
+
+<style>
+	.div1{
+		width: 100px;
+		height: 100px;
+		background: red;
+		position: relative;
+		animation: mymove 5s infinite;
+
+	}
+	@keyframes mymove{
+		form{left: 0px;}
+			to{right: 100px}
+		}
+	</style>
+	<div class="div1">
+	<h2>the animation property</h2>
+	<p>move an element form left to right</p></div>
+	<br>
+	<br>
+	<br>
+	<hr>
+	
+
+	<style>
+img {
+  position: absolute;
+  margin: 10px;
+  clip: rect(10,60,200,10);
+  overflow: scroll;
+}
+.div2{
+	float:right;
+	margin: 10px;
+	padding: 10px;
+	background-color: red;
+}
+.p1{
+	border: 2px;
+	outline: black;
+	padding: 2px;
+	margin: auto;
+	text-align: center;
+	overflow: scroll ;
+}
+</style>
+</head>
+<body>
+
+<img src="5.webp" width="50%" height="50%"><br>
+
+
+<br>
+<div class="div2">
+<p1>Souq Waqif (Arabic:Wāqif, "the standing market") is a marketplace (souq) in Doha, in the state of Qatar. The souq sells traditional garments, spices, handicrafts, and souvenirs. It is also home to restaurants and Shisha lounges. The original building dates back at least from the 20th Century in a traditional Qatari architectural style. It was renovated in 2006</p1>
+	</div>
+<style>
+img.a {
+  width: 200px;
+  height: 400px;
+  object-fit: cover;
+}
+</style>
+
+<h2>The object-fit Property</h2>
+
+<h2>object-fit: cover:</h2>
+<p>Cut off the sides of an image, preserving the aspect ratio, and also filling in the space:</p>
+<img class="a"  src="5.webp" width="400" height="300">
+
+<h2>Original image:</h2>
+<img src="5.webp" width="400" height="300">
+
+<p>Note: The object-fit property is not supported in Internet Explorer/Edge 15 or earlier.</p>
+
+</body>
+</html>
